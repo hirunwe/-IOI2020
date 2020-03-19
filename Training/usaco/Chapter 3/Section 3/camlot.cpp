@@ -88,7 +88,7 @@ int main(){
       }
       minIndex[r][c] = minI;
     }
-  int k[R+1][C+1];
+  int k[R+1][C+1]; 
   for(int r=1;r<=R;r++)
     for(int c=1;c<=C;c++){
       int sum = 0;
