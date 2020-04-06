@@ -21,9 +21,9 @@ bool compare(int a,int b){
 
 void DFS(int node,int dis){
   if(Ans[node]!=0)return;
-  Ans[node] = dis;
+  Ans[node] = dis;                     
   for(int x:adjOut.at(node))
-    DFS(x,dis);         
+    DFS(x,dis);
 }
 
 int main(){
